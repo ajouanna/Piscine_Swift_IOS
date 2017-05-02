@@ -1,0 +1,6 @@
+framework module ajouanna2017 {
+  umbrella header "ajouanna2017-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+/* No Localized Strings */
+
+// Needed to know your location.
+"NSLocationWhenInUseUsageDescription" = "Requis pour connaitre votre position.";

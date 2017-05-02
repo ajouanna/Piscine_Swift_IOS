@@ -1,0 +1,22 @@
+{
+  "name": "acontass2017",
+  "version": "0.1.0",
+  "summary": "A short description of acontass2017.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/acontass/acontass2017",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "acontass": "acontass@student.42.fr"
+  },
+  "source": {
+    "git": "https://github.com/acontass/acontass2017.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "acontass2017/Classes/**/*"
+}

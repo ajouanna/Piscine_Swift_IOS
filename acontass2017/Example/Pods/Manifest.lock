@@ -1,0 +1,16 @@
+PODS:
+  - acontass2017 (0.1.0)
+
+DEPENDENCIES:
+  - acontass2017 (from `../`)
+
+EXTERNAL SOURCES:
+  acontass2017:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  acontass2017: f87d7b116a1000642727385f8630d5871b6b043c
+
+PODFILE CHECKSUM: 2459c17d11c7510d01e8ad79ce350bdb5f2acfa5
+
+COCOAPODS: 1.2.0.beta.3

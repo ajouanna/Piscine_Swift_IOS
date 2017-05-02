@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Ecole 42</string>
+		<key>desc</key>
+		<string>la fameuse école des sorciers du code</string>
+		<key>latitude</key>
+		<string>48.896583</string>
+		<key>longitude</key>
+		<string>2.318971</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grenoble</string>
+		<key>desc</key>
+		<string>La ville des JO de 68 et du sport de glisse</string>
+		<key>latitude</key>
+		<string>45.188395</string>
+		<key>longitude</key>
+		<string>5.725842</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>A la maison</string>
+		<key>desc</key>
+		<string>Chez moué</string>
+		<key>latitude</key>
+		<string>48.852441</string>
+		<key>longitude</key>
+		<string>2.330053</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>La tour Eiffel</string>
+		<key>desc</key>
+		<string>La dame de fer, haut lieu du tourisme parisien</string>
+		<key>latitude</key>
+		<string>48.858525</string>
+		<key>longitude</key>
+		<string>2.294481</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,6 @@
+framework module acontass2017 {
+  umbrella header "acontass2017-umbrella.h"
+
+  export *
+  module * { export * }
+}

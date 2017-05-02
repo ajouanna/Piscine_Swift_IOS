@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  rush01
+
+  Created by Anthony CONTASSOT-VIVIER on 13/04/2017.
+  Copyright © 2017 Anthony CONTASSOT-VIVIER. All rights reserved.
+*/
+
+"Departure :" = "Départ";
+
+"Arrival :" = "Arrivée";
+
+"Cancel" = "Annuler";
+
+"Remove Route !" = "Supprimer Itinéraire !";
+
+"Navigate" = "Naviguez";
+
+"Walk" = "Marchez";
+
+" for " = " pendant ";
+
+//" m, then" = " m, puis";
+
+"My Location" = "Ma position";
+
+"Error" = "Erreur";
+
+"Departure and arrival are both required." = "Le départ et l'arrivée sont requis.";
+
+", then" = ", puis";

@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Navigate !"; ObjectID = "6St-td-ajw"; */
+"6St-td-ajw.normalTitle" = "Naviguer !";
+
+/* Class = "UILabel"; text = "Turn right onto the street"; ObjectID = "8em-P7-qVv"; */
+"8em-P7-qVv.text" = "Tournez à droite sur la rue";
+
+/* Class = "UILabel"; text = "Departure :"; ObjectID = "Jj0-cm-2rC"; */
+"Jj0-cm-2rC.text" = "Départ :";
+
+/* Class = "UISegmentedControl"; QfA-nH-efe.segmentTitles[0] = "Standard"; ObjectID = "QfA-nH-efe"; */
+"QfA-nH-efe.segmentTitles[0]" = "Standard";
+
+/* Class = "UISegmentedControl"; QfA-nH-efe.segmentTitles[1] = "Satellite"; ObjectID = "QfA-nH-efe"; */
+"QfA-nH-efe.segmentTitles[1]" = "Satellite";
+
+/* Class = "UISegmentedControl"; QfA-nH-efe.segmentTitles[2] = "Hybrid"; ObjectID = "QfA-nH-efe"; */
+"QfA-nH-efe.segmentTitles[2]" = "Hybride";
+
+/* Class = "UILabel"; text = "Arrival :"; ObjectID = "SmH-bg-Yfb"; */
+"SmH-bg-Yfb.text" = "Arrivée :";
+
+/* Class = "UINavigationItem"; title = "Route Steps"; ObjectID = "d1E-8C-1HK"; */
+"d1E-8C-1HK.title" = "Étapes de l'Itinéraire";
+
+/* Class = "UIButton"; normalTitle = "Draw route !"; ObjectID = "dJV-ix-Zia"; */
+"dJV-ix-Zia.normalTitle" = "Dessiner Itinéraire !";
+
+/* Class = "UIButton"; selectedTitle = "Remove draw !"; ObjectID = "dJV-ix-Zia"; */
+"dJV-ix-Zia.selectedTitle" = "Supprimer Itinéraire !";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "hOY-JC-5Qa"; */
+"hOY-JC-5Qa.title" = "Fermer";
+
+/* Class = "UITextField"; placeholder = "Enter arrival here"; ObjectID = "jkl-uZ-lMq"; */
+"jkl-uZ-lMq.placeholder" = "Entrez la destination ici";
+
+/* Class = "UITextField"; placeholder = "Enter departure here"; ObjectID = "v5m-tz-O2u"; */
+"v5m-tz-O2u.placeholder" = "Entrez le départ ici";
+
+/* Class = "UILabel"; text = "Walk for 70 meters, then"; ObjectID = "ycv-Y4-9i8"; */
+"ycv-Y4-9i8.text" = "Marchez pendant 70 mètres, puis";

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>itemImage</key>
+		<string>https://www.nasa.gov/sites/default/files/thumbnails/image/pia21338.png</string>
+	</dict>	
+	<dict>
+		<key>itemImage</key>
+		<string>NGC1275_HubblePestana_3891</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>2017-03-17-0726_2-RGBdp</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>SaturnIR_CassiniKakitsev_1024</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>ldn1622LeonardoJulio-ap1024</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'acontass2017_Example' do
+  pod 'acontass2017', :path => '../'
+
+  target 'acontass2017_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_acontass2017_Tests {
+  umbrella header "Pods-acontass2017_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

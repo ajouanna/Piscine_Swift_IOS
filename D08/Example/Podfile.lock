@@ -1,0 +1,16 @@
+PODS:
+  - ajouanna2017 (0.1.0)
+
+DEPENDENCIES:
+  - ajouanna2017 (from `../`)
+
+EXTERNAL SOURCES:
+  ajouanna2017:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ajouanna2017: fe9181fe03794e804826630709c0b442b5d75591
+
+PODFILE CHECKSUM: 7abb124ba4e588bfbed61020cd498a0b5df9548d
+
+COCOAPODS: 1.2.1

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>itemImage</key>
+		<string>https://www.nasa.gov/sites/default/files/thumbnails/image/pia21338.png</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia21563.jpg</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>https://www.nasa.gov/sites/default/files/thumbnails/image/christmas2015fullmoon.jpg</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>https://www.nasa.gov/sites/default/files/thumbnails/image/earth_and_limb_m1199291564l_color_2stretch_mask_0.jpg</string>
+	</dict>
+	<dict>
+		<key>itemImage</key>
+		<string>https://bidon.jpg</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_ajouanna2017_Example {
+  umbrella header "Pods-ajouanna2017_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
