@@ -74,6 +74,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
 
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let cell = sender as? GalleryItemCollectionViewCell, let zoomedPhotoViewController = segue.destination as? PhotoViewController {
+            // zoomedPhotoViewController.photoName = galleryItems[indexPath.row].itemImage
+            zoomedPhotoViewController.photo = cell.itemImageView.image
+        }
+    }
+
+    
+    
     // MARK: - UICollectionViewDataSource
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

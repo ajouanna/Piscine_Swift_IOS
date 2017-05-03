@@ -16,6 +16,7 @@
 		4A36F6E41E97C308005C444A /* GalleryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36F6E31E97C308005C444A /* GalleryItemCollectionViewCell.swift */; };
 		4A36F6E61E97C39C005C444A /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36F6E51E97C39C005C444A /* GalleryItem.swift */; };
 		4A36F6E81E97CA75005C444A /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A36F6E71E97CA75005C444A /* items.plist */; };
+		4AFF58761EBA1ED7003199B1 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFF58751EBA1ED7003199B1 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4A36F6E31E97C308005C444A /* GalleryItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A36F6E51E97C39C005C444A /* GalleryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
 		4A36F6E71E97CA75005C444A /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
+		4AFF58751EBA1ED7003199B1 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				4A36F6E31E97C308005C444A /* GalleryItemCollectionViewCell.swift */,
 				4A36F6E51E97C39C005C444A /* GalleryItem.swift */,
 				4A36F6E71E97CA75005C444A /* items.plist */,
+				4AFF58751EBA1ED7003199B1 /* PhotoViewController.swift */,
 			);
 			path = D03;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				4A36F6D21E97B8DE005C444A /* ViewController.swift in Sources */,
 				4A36F6D01E97B8DE005C444A /* AppDelegate.swift in Sources */,
 				4A36F6E21E97BAE0005C444A /* GalleryItemCommentView.swift in Sources */,
+				4AFF58761EBA1ED7003199B1 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
