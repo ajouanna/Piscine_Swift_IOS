@@ -12,10 +12,10 @@ import ForecastIO
 import JSQMessagesViewController
 
 class SecondViewController: JSQMessagesViewController {
-
+    // code en doublon de ViewController : c'est une mauvaise pratique mais ca ira pour ici
     var bot : RecastAIClient?
-    let RECASTAI_TOKEN = "3a72b05e8db515aa03f2d931db8fb9ad"
-    let FORECASTIO_TOKEN = "a9922194a70ef4300b6af527ff3717a7"
+    let RECASTAI_TOKEN = "xxxx"
+    let FORECASTIO_TOKEN = "xxxx"
     
     var messages = [JSQMessage]()
     lazy var outgoingBubbleImageView: JSQMessagesBubbleImage = self.setupOutgoingBubble()
