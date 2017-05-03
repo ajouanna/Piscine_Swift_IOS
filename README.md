@@ -1,1 +1,3 @@
 # Piscine_Swift_IOS
+Ce repo contient tous les jours et le rush01 de la Piscine Swift IOS de l'Ecole 42
+(il manque le rush00)...
