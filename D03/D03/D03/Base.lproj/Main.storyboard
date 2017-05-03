@@ -133,6 +133,9 @@
                                     <constraint firstItem="eVd-iL-c16" firstAttribute="leading" secondItem="3wb-yd-8yP" secondAttribute="leading" id="huX-ck-as3"/>
                                     <constraint firstItem="eVd-iL-c16" firstAttribute="top" secondItem="3wb-yd-8yP" secondAttribute="top" id="neR-Ii-VxY"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="bRJ-Z3-Etn" id="vH0-uh-JMA"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -149,6 +152,11 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="eVd-iL-c16" id="hN7-Xy-ENh"/>
+                        <outlet property="imageViewBottomConstraint" destination="flX-5F-Nqe" id="M9A-ov-aPa"/>
+                        <outlet property="imageViewLeadingConstraint" destination="huX-ck-as3" id="23B-2V-7MQ"/>
+                        <outlet property="imageViewTopConstraint" destination="neR-Ii-VxY" id="hKi-4f-QDo"/>
+                        <outlet property="imageViewTrailingConstraint" destination="Kig-by-q6U" id="0b2-DS-UJO"/>
+                        <outlet property="scrollView" destination="3wb-yd-8yP" id="ASj-GU-dhP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufy-tR-IcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
