@@ -12,8 +12,9 @@ import ForecastIO
 
 class ViewController: UIViewController {
     var bot : RecastAIClient?
-    let RECASTAI_TOKEN = "3a72b05e8db515aa03f2d931db8fb9ad"
-    let FORECASTIO_TOKEN = "a9922194a70ef4300b6af527ff3717a7"
+	// mettre les tokens recuperes sur les sites des developpeurs
+    let RECASTAI_TOKEN = "xxxxx"
+    let FORECASTIO_TOKEN = "xxxxx"
     @IBOutlet weak var itemActivityIndicator: UIActivityIndicatorView!
 
     

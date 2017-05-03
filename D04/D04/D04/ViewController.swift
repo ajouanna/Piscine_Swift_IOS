@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, APITwitterDelegate, UITableViewDataSource, UITableViewDelegate {
     
-    let consumerKey : String = "Y0pZ4mVb8ajPeBMopVUw0sdaq"
-    let consumerSecret : String = "o7obLXhXwm3zJyx6EdbXnY53QmRrk3rXG3h99Nd97s3mS83pm7"
+	// changer les cles
+    let consumerKey : String = "xxxxx"
+    let consumerSecret : String = "yyyyyy"
     var token : String?
     var apiController : APIController?
     var tweets : [Tweet] = []
