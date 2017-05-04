@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var gravity: UIGravityBehavior!
     var collision: UICollisionBehavior!
     var itemBehaviour: UIDynamicItemBehavior!
+    let motionManager = CMMotionManager()
 
     @IBAction func tapAction(_ sender: UITapGestureRecognizer) {
         print("tap en position \(sender.location(in: view))")
@@ -125,8 +126,18 @@ class ViewController: UIViewController {
         }
     }
     
-    func accHandler(data: CMAccelerometerData?, error: NSError?) {
+    // cette fonction utilise les donnees de l'acceleromètre
+    // pour changer la direction de la gravité
+    func accHandler(data: CMAccelerometerData?, error: Error?) {
         print("accHandler")
+
+        if let myData = data {
+            let x = CGFloat(myData.acceleration.x);
+            let y = CGFloat(myData.acceleration.y);
+            print("x = \(x), y = \(y)")
+            let v = CGVector(dx: x, dy: -y);
+            gravity.gravityDirection = v;
+            }
     }
     
     override func viewDidLoad() {
@@ -147,19 +158,36 @@ class ViewController: UIViewController {
         animator.addBehavior(itemBehaviour)
         
         
-        let motionManager = CMMotionManager()
+
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear")
+        super.viewWillAppear(animated)
         if motionManager.isAccelerometerAvailable {
             motionManager.accelerometerUpdateInterval = 1
-
             let queue = OperationQueue.main
-            motionManager.startAccelerometerUpdates(to: queue, withHandler: accHandler as! CMAccelerometerHandler)
-
+            // toutes les secondes, on va appeler la fonction accHandler
+            motionManager.startAccelerometerUpdates(to: queue, withHandler: accHandler )
         }
         else {
-            print("desolé, il n'y a pas d'accelerometre !")
+            print("desolé, il n'y a pas d'acceleromètre !")
         }
         
     }
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print("viewWillDisappear")
+
+        super.viewWillDisappear(animated)
+        if motionManager.isAccelerometerAvailable {
+            // pas la peine d'encombrer la main queue
+            motionManager.stopAccelerometerUpdates()
+        }
+    }
+ 
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
